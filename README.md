@@ -14,14 +14,26 @@ This project aims to conduct end-to-end testing for the [MERN E-Commerce reposit
 
 5. **Order Flow:** Ensure the accurate processing and management of user orders.
 
+## Technologies Used
+
+- **Cypress:** A modern JavaScript-based end-to-end testing framework.
+- **Page Object Model (POM):** A design pattern for organizing and managing test code for better maintainability.
+
+## Folder Structure
+
+- **cypress/e2e:** Contains all test files for different flows.
+- **cypress/pages:** Contains page objects representing different pages of the application.
+- **cypress/support:** Contains support files such as custom commands and shared functions.
+
 ## Relevant Work Products
 
-### Functional Test Case
+#### Functional Test Case
 
 - **Purpose:** Verify the correctness of the application's functionalities.
 - **Test Case Details:** [MernStore Functional Test Case](https://docs.google.com/spreadsheets/d/1XBWdfpL1xYzv3OIBydeuh4Gmc3_QlaR0U7fOvc4cVOU/edit?usp=sharing)
 
-### API Test Case
+#### API Test Case
 
 - **Purpose:** Verify the correctness and reliability of the application's API.
 - **Test Case Details:** [MernStore API Test Case](https://docs.google.com/spreadsheets/d/1gWGnf2lJFqt6cR7srJmbW-8EL_siS60xot7nwjhQg1w/edit?usp=sharing)
+
